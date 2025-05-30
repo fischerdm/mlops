@@ -110,5 +110,9 @@ To implement a restriction in GitHub so that no one can directly push to the mai
 
 By setting up these branch protection rules, you ensure that all changes to the main or master branch must go through a pull request, thereby preventing direct pushes and enhancing code quality and collaboration.
 
+You have to give this token a name for instance *General Repository Access and Workflow*.
+
 ### GitLab
+
+tbd.
 
