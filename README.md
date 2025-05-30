@@ -54,6 +54,8 @@ Verify the configuration
 git config --global --list | grep credential.helper
 ```
 
+**On MacOS, you may have to update your KeyChain with the Credentials for GitHub (or GitLab).**
+
 ## PAT (Classic)
 
 ### Github
