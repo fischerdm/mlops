@@ -118,3 +118,36 @@ You have to give this token a name for instance *General Repository Access and W
 
 tbd.
 
+## Project Structure
+
+```
+Project/
+│
+├── data/
+│   └── (This directory is typically used to store data files that your project might need, such as datasets, configuration files, or any other data-related assets. It's often excluded from version control for projects dealing with large or sensitive data.)
+│
+├── src/
+│   └── (The src/ directory contains the main source code of your project. This is where you would place all your Python scripts, modules, and packages that implement the core functionality of your project.)
+│
+├── test/
+│   └── (This directory contains all your test scripts. Testing is crucial for ensuring that your code works as expected and for catching bugs early. You can use frameworks like unittest, pytest, or others to write and run your tests.)
+│
+├── requirements.txt
+│   └── (This file lists all the Python dependencies that your project requires. It allows others to quickly set up the necessary environment to run your project by installing the listed packages using pip install -r requirements.txt.)
+│
+├── setup.py
+│   └── (setup.py is used to define how to package your project. It includes metadata about your project, such as its name, version, and dependencies. It's essential if you plan to distribute your project as a package that can be installed via pip.)
+│
+├── Makefile
+│   └── (A Makefile contains a set of directives used by the make build automation tool to compile and build software projects. It can define rules for building, installing, and cleaning project files, making it easier to manage complex build processes.)
+│
+├── Dockerfile
+│   └── (A Dockerfile is used to build a Docker image for your project. Docker allows you to package your application and its environment into a container, ensuring consistency across different development and deployment environments.)
+│
+├── .dockerignore
+│   └── (Similar to .gitignore, the .dockerignore file specifies which files and directories to exclude when building a Docker image. This helps to reduce the size of the Docker image and avoid including unnecessary or sensitive files.)
+│
+└── .gitignore
+    └── (The .gitignore file specifies intentionally untracked files that Git should ignore. This is useful for excluding files that are not part of the source code, such as build artifacts, local configuration files, and data files.)
+```
+
