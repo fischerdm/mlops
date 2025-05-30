@@ -151,3 +151,13 @@ Project/
     └── (The .gitignore file specifies intentionally untracked files that Git should ignore. This is useful for excluding files that are not part of the source code, such as build artifacts, local configuration files, and data files.)
 ```
 
+## Automatically activated conda base environment
+
+To prevent the conda base environment to be automatically loaded in the terminal you can set
+
+```bash
+conda config --set auto_activate_base false
+````
+
+
+
