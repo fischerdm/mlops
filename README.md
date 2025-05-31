@@ -3,7 +3,7 @@ This repository stores useful information about MLOps. It can be used as a scaff
 
 ## Setting up the Git Credential Manager
 
-## Installing or upgrading git (over homebrew)
+## Installing or upgrading git (with homebrew)
 Before setting up the Git Credential Manager (CDM) we have to install or upgrade. We use homebrew here.
 
 ### Updating and upgrading homebrew
