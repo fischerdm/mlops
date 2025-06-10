@@ -268,7 +268,7 @@ In GitLab, the terms "allowed to merge" and "allowed to push and merge" refer to
 
 In summary, "allowed to merge" is a more restrictive permission that only allows users to propose changes via merge requests, while "allowed to push and merge" grants users the additional capability to push changes directly to the branch. This distinction helps teams enforce workflows that require review and approval before changes are integrated into critical branches.
 
-![Branch Protection GitHub](./images/BranchProtectionGitLab.png)
+![Branch Protection GitLab](./images/BranchProtectionGitLab.png)
 
 ## 4 Project Structure
 
